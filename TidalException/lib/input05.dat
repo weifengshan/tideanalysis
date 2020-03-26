@@ -1,0 +1,22 @@
+ &PARAM                                                                 
+ KIND=8,                                                                
+ SPAN=720,   SHIFT=360,                                                 
+ DMIN=0.50D0,                                                           
+ LPOUT=1,   FILOUT=1,
+ PREPRO=1,                                                   
+ IAUG=1,    LAGP=1,                                                                                                                               
+ TIMSYS=-8.0D0,                                                          
+ MAXJMP=0,
+ &END                                                                   
+ 2001   09   04  0.040000  1.0                                          
+    0                  GROUPING  ( 0:AUTO; -2,-1,1--6:MANUAL )
+   12    1    0        I/O UNIT, FORMAT, STEP (well waterlevel)   
+   14    1    0        I/O UNIT, FORMAT, STEP (ASSOCIATED DATASET)            
+9999                                     TITLE
+           rongchang well waterlevel                                                   
+9999                                                                            
+rongchang well                           STATION NAME
+Unkown                                   INSTRUMENT NAME      
+9999                                      
+cm                                       UNIT OF waterlevel
+ATMOSPHERIC PRESSURE                     TITLE OF ASSOSIATED DATASET
